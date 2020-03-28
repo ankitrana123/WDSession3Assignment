@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-left: 120px;
+            margin-top:50px;
+            border: 1px salmon;
+        }
+        div{
+            padding: 10px;
+            margin: 10px;
+            border: 0.5rem outset pink;
+            align-content: center;
+        }
+        #inputNumber{
+            width: 300px;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div>
+    <input type="text" id="inputNumber" placeholder="Enter comma seperated numbers" width="1000">
+    <button id="myBtn" onclick="calRMS() ,calnRMS(),calpRMS()">Calculate</button>
+    <br>
+    <p>PRms:<span id="PRms"></span></p>
+    <p>NRms:<span id="NRms"></span></p>
+    <p>Rms:<span id="Rms"></span></p>
+
+   
+    <script async defer src="script.js"></script>
+</div>
+</body>
+</html>
